@@ -1,0 +1,7 @@
+Maze z = createMaze(5, 5)
+z.createEmptyCell(0, 3)
+z.createEmptyCell(3, 0)
+z.startCell = (1, 1)
+z.targetCell = (3, 4)
+z.displayCurrentMaze()
+z.displaymazeGUI()

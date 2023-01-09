@@ -1,0 +1,21 @@
+int mazeWidth = 5
+int mazeHeight = 5
+
+
+Maze z2 = createMaze($mazeWidth, $mazeHeight)
+z2.createEmptyCell(4, 3)
+z2.createEmptyCell(0, 1)
+z2.createEmptyCell(0, 2)
+z2.createEmptyCell(0, 3)
+z2.createEmptyCell(1, 2)
+z2.createEmptyCell(2, 2)
+z2.createEmptyCell(3, 2)
+z2.createEmptyCell(3, 3)
+print(Path for Maze z2 is: )
+z2.makeAMove('R', 2)
+z2.makeAMove('B', 3)
+z2.makeAMove('R', 1)
+z2.makeAMove('B', 1)
+z2.makeAMove('R', 1)
+z2.displayCurrentMaze()
+z2.displaymazeGUI()
